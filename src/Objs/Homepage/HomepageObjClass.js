@@ -7,4 +7,4 @@ const Homepage = Scrivito.provideObjClass('Homepage', {
   },
 });
 
-export default Homepage;
+export default Hompage;

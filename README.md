@@ -2,7 +2,9 @@
 
 `touch .env`
 
-### Add your SCRIVITO_TENANT=_YOUR TENATN ID FROM MY.SCRIVITO.COM_
+Add your Scrivito tenant ID to .env
+
+`SCRIVITO_TENANT=_YOUR TENATN ID FROM MY.SCRIVITO.COM_`
 
 `npm install`
 
@@ -10,7 +12,7 @@
 
 ### Remove all the sample content from your tenant
 
-#### NOTE: if you have added, replaced or modified the content in your Scrivito instance the code below will remove all of it. Before you run the command be sure that is what you wish to do.
+##### NOTE: if you have added, replaced or modified the content in your Scrivito instance the code below will remove all of it. Before you run the command be sure that is what you wish to do.
 
 You will need to be in edit mode and in a working copy. Just add “/scrivito” to the URL (after the hostname) and choose name for your working copy. Then open the browser console and switch the execution context from `top` to `scrivito_application`.
 
